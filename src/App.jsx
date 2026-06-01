@@ -435,7 +435,7 @@ export default function Portfolio() {
               <a className="contact-link" href="https://github.com/gtechgobinda">
                 GitHub ↗
               </a>
-              <a className="contact-link" href="https://drive.google.com/drive/folders/1Ou1tunSDzk3ZeWyJ42Ni877nlny-39rQ">
+              <a className="contact-link" href="https://drive.google.com/file/d/1tikwmp1Kn_DghELE8ubPsdDvjH-h1jSJ/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                 Resume ↗
               </a>
             </div>
