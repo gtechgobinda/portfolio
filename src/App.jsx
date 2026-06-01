@@ -6,69 +6,87 @@ const EXPERIENCE = [
     company: "Techwens Software Pvt. Ltd.",
     role: "Frontend Developer",
     date: "Aug 2024 – Present",
-    duration: "~1.5 yr",
+    duration: "~2 yrs",
     type: "Full-time",
     active: true,
-    desc: "Working on the core product suite — a construction project management SaaS used by 200+ enterprise clients across India and the Middle East.",
+    desc: "Contributing to SevaHR — an HRMS platform covering Employee Onboarding, Attendance, Leave, Payroll, and Loan Management modules. Also managing end-to-end frontend development for international clients.",
     bullets: [
-      "Built and maintained 15+ reusable React components used across 4 product modules, reducing dev time by ~30%.",
-      "Revamped the dashboard UI with Recharts, enabling real-time data visualization for project cost & progress tracking.",
-      "Collaborated with the design team to migrate legacy CSS to Tailwind CSS, cutting stylesheet size by 60%.",
-      "Integrated REST APIs for user authentication, file uploads, and notifications using Axios and custom React hooks.",
+      "Led 50%+ of the frontend development using React.js, Ant Design, and Vite across key HRMS modules.",
+      "Took ownership of urgent bug fixes, client communication, and ensured timely delivery of critical features.",
+      "Built and shipped client projects using React.js, Gatsby, and Contentful for international clients.",
+      "Automated repetitive tasks using AI tools to improve team productivity.",
+      "Demonstrated strong team collaboration and problem-solving skills to maintain smooth project execution.",
     ],
-    techs: ["React", "TypeScript", "Tailwind CSS", "Redux", "Recharts", "REST APIs", "Git"],
+    techs: ["React.js", "Ant Design", "Vite", "Gatsby", "Contentful", "JavaScript", "Git"],
   },
-  // {
-  //   company: "Webify Studio",
-  //   role: "Frontend Developer Intern",
-  //   date: "Jan 2023 – Jul 2023",
-  //   duration: "7 mos",
-  //   type: "Internship",
-  //   active: false,
-  //   desc: "Joined as the first frontend intern at a boutique digital agency building marketing websites and landing pages for D2C brands.",
-  //   bullets: [
-  //     "Developed 8 responsive landing pages from Figma designs, achieving 95+ Lighthouse scores on mobile.",
-  //     "Implemented scroll animations using Intersection Observer API, improving user engagement by 22%.",
-  //     "Set up a shared component library with Storybook, adopted by the full dev team of 6.",
-  //     "Fixed 40+ cross-browser compatibility bugs across Safari, Firefox, and Edge.",
-  //   ],
-  //   techs: ["React", "JavaScript", "SCSS", "Storybook", "Figma", "Webpack"],
-  // },
+  {
+    company: "Freelancing",
+    role: "Frontend Developer",
+    date: "Mar 2024 – Jul 2024",
+    duration: "5 mos",
+    type: "Freelance",
+    active: false,
+    desc: "Developed a modern and elegant online jewellery purchasing platform — gemlay.com — focusing on inventory management, product listing, and intuitive UI/UX design.",
+    bullets: [
+      "Built gemlay.com from scratch with a fully responsive and visually appealing user experience.",
+      "Took ownership of the complete frontend development, from design to deployment.",
+      "Delivered high-quality UI with attention to product listing, inventory flows, and smooth interactions.",
+    ],
+    techs: ["React.js", "Styled Components", "SCSS"],
+  },
 ];
 
 const SKILLS = {
-  "Core Stack": ["React", "TypeScript", "JavaScript", "HTML5", "CSS3"],
-  "Styling": ["Tailwind CSS", "Styled Components", "SCSS", "Framer Motion", "Figma"],
-  "Tools & More": ["Git", "Vite", "REST APIs", "Redux", "Webpack", "Jest"],
+  "Core Stack": ["React.js", "JavaScript", "TypeScript", "HTML5", "CSS3"],
+  "Styling": ["Tailwind CSS", "Styled Components", "SCSS"],
+  "Libraries & Frameworks": ["Redux", "Next.js", "React Hooks", "Ant Design", "Gatsby"],
+  "Tools & Platforms": ["Git", "GitHub", "Vite", "Contentful"],
 };
 
 const SKILL_BARS = [
-  { name: "React / JSX", level: 85 },
-  { name: "CSS / Tailwind", level: 90 },
+  { name: "React.js / JSX", level: 90 },
+  { name: "CSS / Tailwind", level: 88 },
+  { name: "JavaScript", level: 85 },
   { name: "TypeScript", level: 72 },
-  { name: "Git & Workflow", level: 80 },
+  { name: "Git & Workflow", level: 82 },
 ];
 
 const PROJECTS = [
   {
-    name: "TaskFlow Dashboard",
-    desc: "A productivity dashboard with drag-and-drop kanban boards, real-time updates, and dark mode support. Built with React and Redux.",
-    tags: ["React", "Redux", "DnD", "SCSS"],
+    name: "SevaHR — HRMS Platform",
+    desc: "An enterprise HRMS platform covering Employee Onboarding, Attendance, Leave, Payroll, and Loan Management. Led 50%+ of the frontend build.",
+    tags: ["React.js", "Ant Design", "Vite", "JavaScript"],
+    url: "#",
   },
   {
-    name: "WeatherSphere",
-    desc: "A beautiful weather app with animated weather conditions, geolocation, and 7-day forecasts using OpenWeather API.",
-    tags: ["React", "REST API", "CSS Animations"],
+    name: "gemlay.com",
+    desc: "A modern and elegant online jewellery purchasing platform with inventory management, product listing, and intuitive UI/UX design.",
+    tags: ["React.js", "Styled Components", "SCSS"],
+    url: "https://gemlay.com",
   },
   {
-    name: "DevBlog Platform",
-    desc: "A personal blogging platform with markdown support, syntax highlighting, and an admin panel. Fully responsive.",
-    tags: ["React", "Markdown", "TypeScript"],
+    name: "cash4yourcards.com",
+    desc: "A client-facing platform for buying and selling gift cards, built with a focus on clean UI and seamless user experience.",
+    tags: ["React.js", "Gatsby", "Contentful"],
+    url: "https://cash4yourcards.com",
   },
   {
-    name: "E-Commerce UI Kit",
-    desc: "A reusable component library with 30+ components built with TypeScript, documented with Storybook.",
-    tags: ["TypeScript", "Storybook", "Tailwind"],
+    name: "freshstartmove.com",
+    desc: "A professional moving services website with responsive design, service listings, and contact flow for international clients.",
+    tags: ["React.js", "Gatsby", "Contentful"],
+    url: "https://freshstartmove.com",
+  },
+  {
+    name: "jerseyshorepowerwash.com",
+    desc: "A clean, conversion-focused service website for a power washing company — fully responsive with modern design.",
+    tags: ["React.js", "Gatsby"],
+    url: "https://jerseyshorepowerwash.com",
+  },
+  {
+    name: "zyosgroup.com",
+    desc: "A corporate website for an international business group with polished UI and Contentful-powered dynamic content.",
+    tags: ["React.js", "Gatsby", "Contentful"],
+    url: "https://zyosgroup.com",
   },
 ];
 
@@ -211,15 +229,15 @@ export default function Portfolio() {
             </div>
             <div style={{ display: "flex", gap: "40px" }}>
               <div className="hero-stat fade-up delay-3">
-                <div className="hero-stat-num">1<span className="accent">.5</span></div>
+                <div className="hero-stat-num">2<span className="accent">+</span></div>
                 <div className="hero-stat-label">Years Exp.</div>
               </div>
               <div className="hero-stat fade-up delay-4">
-                <div className="hero-stat-num">12<span className="accent">+</span></div>
-                <div className="hero-stat-label">Projects</div>
+                <div className="hero-stat-num">9<span className="accent">+</span></div>
+                <div className="hero-stat-label">Live Projects</div>
               </div>
               <div className="hero-stat fade-up delay-5">
-                <div className="hero-stat-num">8<span className="accent">+</span></div>
+                <div className="hero-stat-num">10<span className="accent">+</span></div>
                 <div className="hero-stat-label">Technologies</div>
               </div>
             </div>
@@ -255,27 +273,27 @@ export default function Portfolio() {
           <div className="about-grid">
             <div>
               <p className="about-text">
-                Hey! I'm <strong>Gobinda</strong>, a frontend developer based in Kolkata 🇮🇳
-                with <strong>1.5 years</strong> of hands-on experience building responsive,
-                accessible, and performant web applications.
+                Hey! I'm <strong>Gobinda</strong>, a frontend developer based in Habra, West Bengal 🇮🇳
+                with <strong>2+ years</strong> of hands-on experience building scalable, responsive,
+                and performant web applications for clients across India and internationally.
               </p>
               <p className="about-text" style={{ marginTop: 20 }}>
-                I specialize in <strong>React</strong> and the modern JavaScript ecosystem.
-                I care deeply about <strong>UI/UX details</strong> — the subtle animations,
-                the pixel-perfect layouts, the interactions that feel just right.
+                I specialize in <strong>React.js</strong> and the modern JavaScript ecosystem —
+                TypeScript, Redux, Tailwind CSS, and more. I care deeply about <strong>UI/UX details</strong>
+                — pixel-perfect layouts, smooth interactions, and clean component architecture.
               </p>
               <p className="about-text" style={{ marginTop: 20 }}>
-                When I'm not coding, I'm probably on Dribbble getting inspired,
-                or trying to perfect my pour-over coffee technique.
+                When I'm not coding, I enjoy gardening, leading teams, and sharpening my
+                problem-solving & critical thinking skills.
               </p>
             </div>
             <div className="about-cards">
               {[
-                ["Location", "Kolkata, India"],
-                ["Experience", "1.5 Years"],
+                ["Location", "Habra, West Bengal, India"],
+                ["Experience", "2+ Years"],
                 ["Availability", "Immediate"],
                 ["Work Mode", "Remote / Hybrid / Office"],
-                ["Education", "B.Tech CSE · 2023"],
+                ["Education", "B.Tech CSE · Brainware University · 2023"],
               ].map(([label, value]) => (
                 <div className="about-card" key={label}>
                   <span className="about-card-label">{label}</span>
@@ -379,7 +397,7 @@ export default function Portfolio() {
 
           <div className="projects-grid">
             {PROJECTS.map((p, i) => (
-              <a className="project-card" href="#" key={p.name}>
+              <a className="project-card" href={p.url} target="_blank" rel="noopener noreferrer" key={p.name}>
                 <div className="project-num">0{i + 1}</div>
                 <div>
                   <div className="project-name">{p.name}</div>
@@ -411,13 +429,13 @@ export default function Portfolio() {
               <a className="contact-link primary" href="mailto:gobindasahaofficial@gmail.com">
                 ✉ gobindasahaofficial@gmail.com
               </a>
-              <a className="contact-link" href="#">
+              <a className="contact-link" href="https://www.linkedin.com/in/gtechgobinda/">
                 LinkedIn ↗
               </a>
-              <a className="contact-link" href="#">
+              <a className="contact-link" href="https://github.com/gtechgobinda">
                 GitHub ↗
               </a>
-              <a className="contact-link" href="#">
+              <a className="contact-link" href="https://drive.google.com/drive/folders/1Ou1tunSDzk3ZeWyJ42Ni877nlny-39rQ">
                 Resume ↗
               </a>
             </div>
@@ -428,7 +446,7 @@ export default function Portfolio() {
         <footer className="footer">
           <div className="footer-copy">© 2026 Gobinda Saha · All rights reserved</div>
           <div className="footer-made">
-            Designed & built with <span>♥</span> in Bangalore
+            Designed & built with <span>♥</span> in West Bengal
           </div>
         </footer>
       </div>
